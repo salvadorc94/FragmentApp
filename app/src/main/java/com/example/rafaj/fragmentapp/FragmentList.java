@@ -5,6 +5,7 @@ import android.app.FragmentTransaction;
 import android.app.ListFragment;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -35,14 +36,14 @@ public class FragmentList extends ListFragment implements AdapterView.OnItemClic
                 R.array.marca, android.R.layout.simple_list_item_1);
         setListAdapter(adapter);
         getListView().setOnItemClickListener(this);
+
     }
 
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-        Carro carro = new Carro(i);
-
+        Carro carro = new Carro(getResources(),i);
 
 
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){

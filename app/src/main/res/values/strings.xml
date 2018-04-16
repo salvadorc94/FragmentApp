@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">FragmentApp</string>
+
+    <string-array name="marca">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Jeep</item>
+        <item>Kia</item>
+        <item>Mazda</item>
+        <item>Mercedes Benz</item>
+        <item>Toyota</item>
+    </string-array>
+
+    <string-array name="modelo">
+        <item>A4</item>
+        <item>440I</item>
+        <item>CRV</item>
+        <item>Elantra</item>
+        <item>Cherokee</item>
+        <item>Sportage</item>
+        <item>3</item>
+        <item>E-class</item>
+        <item>Corolla</item>
+    </string-array>
+
+    <string-array name="año">
+        <item>2018</item>
+        <item>2017</item>
+    </string-array>
+
 </resources>
