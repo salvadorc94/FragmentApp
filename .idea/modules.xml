@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FragmentApp.iml" filepath="$PROJECT_DIR$/FragmentApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FragmentAppClases.iml" filepath="$PROJECT_DIR$/FragmentAppClases.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
